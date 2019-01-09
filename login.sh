@@ -22,7 +22,7 @@ else
     sid=$1
 fi
 stty -echo
-read -p "Passowrd: " pwd
+read -p "Password: " pwd
 stty echo
 printf "\n"
 ip_en=$(urlencode ${my_ip})
